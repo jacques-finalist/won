@@ -1,0 +1,8 @@
+.DS_Store
+.classpath
+.project
+.settings
+target
+
+src/main/webapp/css/generated
+src/main/webapp/js/generated

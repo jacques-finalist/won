@@ -1,0 +1,250 @@
+@panel-margin: 20px;
+
+body{
+	padding-top: 90px;
+	
+	.hidden {
+		display: none;
+	}
+}
+
+div.login{
+	.hero-unit{
+		width: 250px;
+	}
+}
+
+div.zorgcapaciteit {
+	position: relative;
+	h2 {
+		position: absolute;
+		left: 0px;
+		right: 0px;
+		top: 0px;
+		background-color: #EA9900;
+		border-top-left-radius: inherit;
+		border-top-right-radius: inherit;
+		text-indent: 60px;
+		color: #000;
+	}
+	p {
+		margin-top: 33px;
+	}
+	
+	border: 1px solid #666;
+	background-color: #fff;
+}
+
+div.navbar {
+	.username {
+		float: right;
+		margin: 10px 10px 11px;
+	}
+}
+
+.dldiag {
+	visibility: hidden;
+	position: absolute;
+	top: -200px;
+	left: -2000px;
+}
+
+legend {
+	font-size: 16px;
+	margin-left: 10px;
+	margin-bottom: 15px;
+}
+
+.modal {
+	margin-top: -350px;
+}
+
+.modal-body {
+	max-height: 600px;
+	
+	.download {
+		div {
+			padding: 15px 0 0 10px;
+			
+			img {
+				display: inline;
+				margin-right: 10px;
+			}
+			
+			p {
+				display: inline;
+			}
+		}
+	}
+}
+
+#stopActiveListView {
+	table {
+		tbody {
+			td {
+				vertical-align: middle;
+			}
+		}
+	}
+}
+
+#mapView{
+	bottom:@panel-margin;
+	top:@panel-margin;
+	position: relative;
+	
+	.info-window {
+		padding: 7px;
+		background: #fff;
+		border-radius: 10px;
+		border: 1px solid gray;
+		
+		.alert {
+			margin: 0px;
+			padding: 5px;
+			white-space: nowrap;
+		}
+		
+		.details {
+			white-space: normal;
+			margin-left: 15px;
+			font-size: 0.85em;
+			
+			div {
+				white-space: nowrap;
+			}
+		}
+		
+		div:nth-of-type(1) {
+			margin-top: 10px;
+		}
+	}
+	
+	.stop-alert {
+		position: absolute;
+		top: 20px;
+		left: 50%;
+		margin-left:-260px;
+		width: 500px;
+		z-index: 1020;
+		padding-top: 15px;
+		text-align:center;
+	}
+}
+
+footer {
+	p {
+		display: inline;
+		
+		float: right;
+		margin-left: 20px;
+	}
+	
+	p:nth-of-type(1) {
+		margin-left: 0px;
+		float: left;
+	}
+}
+
+.alert-backdrop {
+	position: fixed;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	z-index: 1010;
+	background-color: black;
+	opacity: 0.8;
+}
+
+.form-horizontal{
+	.form-label{
+		padding-top: 5px;
+		padding-left: 5px;
+		text-align: left;
+	}
+	
+	input[disabled], select[disabled] {
+		color: #AAA;
+	}
+	
+	.control-group {
+		margin-bottom: 10px;
+		
+		.planned{
+			.date {
+				display:inline;
+			}
+		}
+		.unplanned{
+			.date {
+				display:none;
+			}
+		}
+	}
+}
+
+.logo {
+	margin-top: 25px;
+	
+	p {
+		line-height: 150px;
+	}
+}
+
+.clock {
+	display: inline;
+}
+
+.capacityTable {
+
+	.dataTable{
+		margin-left: auto;
+		margin-right: auto;
+	}
+	
+	.paginate_button{
+		margin-left:10px;
+	}
+	
+	.paginate_active{
+		margin-left: 10px;
+		color:grey;
+		font-weight: bold;
+	}
+	
+	.paginate_button_disabled{
+		color:grey;
+	}	
+	
+	.cell {
+		width:40px;
+		height:40px;
+		line-height:40px;
+		text-align:center;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	.nocapacity {
+		background-color: #F2DEDE;
+	}
+
+	.table th, .table td{
+		padding:0px;
+	}
+	
+	table	{
+		width:auto;
+		
+		th.small {
+			width:125px;
+			text-align:center;
+		}
+	
+		th.large {
+			width:350px;
+		}
+	}
+
+}

@@ -1,0 +1,1 @@
+class @Exercise extends Backbone.Model
