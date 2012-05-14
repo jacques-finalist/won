@@ -1,1 +1,0 @@
-INDEX VERSION 1.126+/home/jacques/Projects/phonegap/won/.metadata/.plugins/org.eclipse.jdt.core
